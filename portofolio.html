@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {font-family: 'Poppins', sans-serif; margin:0; padding:0; background: linear-gradient(135deg,#d4fc79,#96e6a1); color:#333;}
+    nav {background: rgba(0,0,0,0.7); padding:12px; position:sticky; top:0; backdrop-filter: blur(5px);}
+    nav a {color:white; text-decoration:none; margin:0 15px; font-weight:500; transition:0.3s;}
+    nav a:hover {color:#ffd700;}
+    .container {max-width:1000px; margin:auto; padding:30px;}
+    h1 {text-align:center; color:white; text-shadow:1px 1px 3px rgba(0,0,0,0.6);}
+    .card {background:white; padding:20px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.2); margin-bottom:30px; animation:fadeInUp 0.7s ease;}
+    h2 {color:#444;}
+    .portfolio-img {width:100%; border-radius:8px; margin-top:10px;}
+    @keyframes fadeInUp {from{opacity:0; transform:translateY(20px);} to{opacity:1; transform:translateY(0);}}
+  </style>
+</head>
+<body>
+  <marquee direction="left">💼 Portofolio Karya dan Proyek Saya 💼</marquee>
+  <nav>
+    <a href="index.html">Biodata</a>
+    <a href="pendidikan.html">Pendidikan</a>
+    <a href="portofolio.html">Portofolio</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+  <div class="container">
+    <h1>Portofolio</h1>
+    <div class="card"><h2>Crimping Kabel LAN</h2><p>proses menyambungkan kabel (biasanya kabel UTP untuk jaringan) ke konektor (seperti RJ45) menggunakan alat khusus yang disebut crimping tool. Tujuannya adalah untuk menciptakan sambungan yang kuat dan andal, sehingga kabel dapat berfungsi sebagai media transmisi data dalam jaringan.</p><img src="images/crimping.jpg" class="portfolio-img"></div>
+    <div class="card"><h2>Splicing Kabel FO</h2><p>proses penyambungan dua kabel FO dengan tujuan menyambungkan kedua ujung kabel tersebut secara permanen, biasanya menggunakan alat yang disebut fusion splicer yang menggunakan panas untuk meleburkan serat optik. Tujuannya adalah untuk memastikan transmisi data yang baik dan meminimalkan redaman atau gangguan sinyal. </p><img src="images/splash.jpg" class="portfolio-img"></div>
+    <div class="card"><h2>Konfigurasi Mikrotik</h2><p>proses mengatur router Mikrotik untuk berbagai keperluan, seperti menghubungkan jaringan ke internet, membagi koneksi internet, mengatur keamanan, dan lainnya. Konfigurasi ini melibatkan pengaturan IP address, DHCP, NAT, firewall, dan berbagai fitur lainnya sesuai kebutuhan. </p><img src="images/mikrotik.jpg" class="portfolio-img"></div>
+  </div>
+</body>
+</html>
